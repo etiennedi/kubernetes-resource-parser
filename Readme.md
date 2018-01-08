@@ -10,11 +10,11 @@ Example:
 
 ```js
 cpuParser('300m') // Returns 0.3
-(emoryParser('2K') // Returns 2000
+memoryParser('2K') // Returns 2000
 memoryParser('2Ki') // Returns 2048
 ```
 
-For the full usage simply, rum the unit tests which also acts as usage instructions, here's a snapshot of them:
+For the full usage, simply run the unit tests which also acts as usage instructions, here's a snapshot of the output:
 
 ```
   a cpu parser
