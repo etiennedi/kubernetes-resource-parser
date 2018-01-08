@@ -1,0 +1,19 @@
+{
+  "name": "kubernetes-resource-parser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etiennedi/kubernetes-resource-parser.git"
+  },
+  "author": "etiennedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etiennedi/kubernetes-resource-parser/issues"
+  },
+  "homepage": "https://github.com/etiennedi/kubernetes-resource-parser#readme"
+}
