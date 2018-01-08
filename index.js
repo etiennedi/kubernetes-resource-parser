@@ -14,6 +14,12 @@ const memoryMultipliers = {
   T: 1000 ** 4,
   P: 1000 ** 5,
   E: 1000 ** 6,
+  Ki: 1024,
+  Mi: 1024 ** 2,
+  Gi: 1024 ** 3,
+  Ti: 1024 ** 4,
+  Pi: 1024 ** 5,
+  Ei: 1024 ** 6,
 };
 
 function memoryParser(input) {

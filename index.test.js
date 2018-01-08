@@ -26,6 +26,12 @@ describe('a memory parser', () => {
     ['parses Tera strings', '4T', 4 * (1000 ** 4)],
     ['parses Peta strings', '5P', 5 * (1000 ** 5)],
     ['parses Exa strings', '6E', 6 * (1000 ** 6)],
+    ['parses kibi strings', '1Ki', 1 * (1024 ** 1)],
+    ['parses Mebi strings', '2Mi', 2 * (1024 ** 2)],
+    ['parses Gibi strings', '3Gi', 3 * (1024 ** 3)],
+    ['parses Tebi strings', '4Ti', 4 * (1024 ** 4)],
+    ['parses Pebi strings', '5Pi', 5 * (1024 ** 5)],
+    ['parses Exbi strings', '6Ei', 6 * (1024 ** 6)],
   ];
 
   tests.map(t => (it(`${t[0]} (${t[1]} to ${t[2]})`, () => {
