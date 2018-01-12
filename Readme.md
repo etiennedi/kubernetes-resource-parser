@@ -1,6 +1,6 @@
 # kubernetes-resource-parser (node)
 
-> Parses the resource strings used by Kubernets (K8s) to indidcate memory and cpu requests and limits.
+> Parses the resource strings used by Kubernetes (K8s) to indidcate memory and cpu requests and limits.
 
 Zero dependencies!
 
