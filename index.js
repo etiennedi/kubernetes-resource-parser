@@ -8,6 +8,7 @@ function cpuParser(input) {
 }
 
 const memoryMultipliers = {
+  m: 0.001,
   k: 1000,
   M: 1000 ** 2,
   G: 1000 ** 3,

@@ -20,6 +20,7 @@ describe('a memory parser', () => {
   // pattern is [description, input, output]
   const tests = [
     ['parses full numbers', '1', 1],
+    ['parses milli strings', '1000m', 1],
     ['parses kilo strings', '1k', 1 * (1000 ** 1)],
     ['parses Mega strings', '2M', 2 * (1000 ** 2)],
     ['parses Giga strings', '3G', 3 * (1000 ** 3)],
